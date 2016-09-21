@@ -131,7 +131,7 @@
 	                </a>
 	                <ul class="submenu">
 	                	<shiro:hasPermission name="商品分类"></shiro:hasPermission>
-	                    <li><a target="productCategory" id="productCategory" class="text-center">商品分类</a></li>
+	                    <li><a target="productCategory.jsp" id="productCategory" class="text-center">商品分类</a></li>
 	                    <shiro:hasPermission name="商品信息"></shiro:hasPermission>
 	                    <li><a target="productInformation" id="productInformation" class="text-center">商品信息</a></li>
 	                </ul>
